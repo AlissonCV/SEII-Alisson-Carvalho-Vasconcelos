@@ -16,8 +16,8 @@ message8 = f'{greeting}, {name}. Welcome!'
 message9 = f'{greeting}, {name.upper()}. Welcome!'
 
 print("message =",message)
-print("message = 'Alisson\'s World' =",message1)
-print("message = ""Alisson's World"" =",message2)
+print("message = 'Alisson\\'s World' =",message1)
+print("""message = "Alisson's World" =""",message2)
 print("message = ",message3)
 print("len(message) =",len(message))
 print("message[0] =",message[0])

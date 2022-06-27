@@ -7,7 +7,7 @@ num1 = 3.14
 print("-Classe dos números:")
 print("num =", num,"=>", type(num))
 print("num =", num1,"=>", type(num1),"\n")
-print("-Arithmetric Operators:")
+print("-Operadores Aritméticos:")
 print("Adição: 3 + 2 =", 3 + 2)
 print("Subtração: 3 - 2 =", 3 - 2)
 print("Multiplicação: 3 * 2 =", 3 * 2)
@@ -17,6 +17,7 @@ print("Expoente: 3 ** 2 =", 3 ** 2)
 print("Resto: 3 % 2 =", 3 % 2,"\n")
 
 num = 1
+num1 = num
 
 print("num =", num)
 
@@ -25,7 +26,7 @@ num1 += 1
 num1 *= 10
 
 print("num += 1 = num + 1 =", num)
-print("num *= 10 = num * 10 =", num)
+print("num *= 10 = num * 10 =", num1,"\n")
 print("-Módulo: abs(-3) =", abs(-3),"\n")
 print("-Arredondamento: round(3.75) =", round(3.75),"\n")
 print("-Arredondamento Decimal: round(3.75,1) =", round(3.75, 1),"\n")
@@ -34,12 +35,12 @@ print("-Comparações:")
 num_1 = 3
 num_2 = 2
 
-print("Igualdade: 3 == 2 =>", num_1 == num_2)
-print("Igualdade: 3 != 2 =>", num_1 != num_2)
-print("Igualdade: 3 > 2 =>", num_1 > num_2)
-print("Igualdade: 3 < 2 =>", num_1 < num_2)
-print("Igualdade: 3 >= 2 =>", num_1 >= num_2)
-print("Igualdade: 3 <= 2 =>", num_1 <= num_2, "\n")
+print("Igual: 3 == 2 =>", num_1 == num_2)
+print("Diferente: 3 != 2 =>", num_1 != num_2)
+print("Maior: 3 > 2 =>", num_1 > num_2)
+print("Menor: 3 < 2 =>", num_1 < num_2)
+print("Maior ou Igual: 3 >= 2 =>", num_1 >= num_2)
+print("Menor ou Igual: 3 <= 2 =>", num_1 <= num_2, "\n")
 
 num1 = '100'
 num2 = '200'
